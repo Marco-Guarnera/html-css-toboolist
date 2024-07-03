@@ -4,3 +4,138 @@
     margin: 0;
     padding: 0;
 }
+
+/* Generics */
+body {
+    background-color: #F6F8F9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+h1 {
+    display: inline;
+    font-size: 38px;
+    font-weight: 900;
+    vertical-align: middle;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+img {
+    padding-left: 25px;
+    vertical-align: middle;
+}
+
+li {
+    padding: 8px 0;
+}
+
+span {
+    display: inline-block;
+    font-size: 10px;
+    line-height: 15px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 15px 0 15px 0;
+}
+
+/* ID */
+/* Header */
+#main-header {
+    height: 75px;
+    background-color: #FFF;
+    line-height: 75px;
+    margin-bottom: 25px;
+}
+
+#functions {
+    padding: 12px 0 12px 25px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#data {
+    padding: 25px 0 0 25px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+/* Class */
+.button-blue {
+    background-color: #1E90FF;
+    border: 1px solid #1E90FF;
+    color: #FFF;
+}
+
+.button-grey {
+    background-color: #FFF;
+    border: 1px solid #828282;
+    color: #828282;
+}
+
+.triangle {
+    font-size: 18px;
+}
+
+span.check {
+    color: #239123;
+    border: 1px solid #239123;
+}
+
+span.cross {
+    color: #FF2A2A;
+    border: 1px solid #FF2A2A;
+}
+
+span.check, span.cross {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+span.label {
+    color: #FFF;
+    border-radius: 12px;
+    padding: 3px 9px;
+}
+
+span.label.editorial {
+    background-color: #45ABEA;
+}
+
+span.label.goals {
+    background-color: #9C72E4;
+}
+
+span.label.mobile {
+    background-color: #F19D33;
+}
+
+span.label.recruiting {
+    background-color: #64C0A9;
+}
+
+span.label.sales {
+    background-color: #B0C926;
+}
+
+span.label.website {
+    background-color: #D863A1;
+}
+
+/* Utilities */
+.container {
+    margin: 2px auto;
+    max-width: 720px;
+    background-color: #FFF;
+}
